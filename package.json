@@ -1,11 +1,8 @@
 {
-  "name": "@swiftcarrot/babel",
+  "name": "babel-preset-swiftcarrot",
   "version": "0.5.0",
-  "description": "zkit babel preset",
+  "description": "swiftcarrot babel preset",
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "files": [
     "index.js"
   ],
@@ -35,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swiftcarrot/babel.git"
+    "url": "git+https://github.com/swiftcarrot/babel-preset-swiftcarrot.git"
   },
   "bugs": {
-    "url": "https://github.com/swiftcarrot/babel/issues"
+    "url": "https://github.com/swiftcarrot/babel-preset-swiftcarrot/issues"
   },
-  "homepage": "https://github.com/swiftcarrot/babel#readme"
+  "homepage": "https://github.com/swiftcarrot/babel-preset-swiftcarrot#readme"
 }

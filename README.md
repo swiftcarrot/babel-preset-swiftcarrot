@@ -1,23 +1,23 @@
-# @swiftcarrot/babel
+# babel-preset-swiftcarrot
 
-[![npm](https://img.shields.io/npm/v/@swiftcarrot/babel.svg)](https://www.npmjs.com/package/@swiftcarrot/babel)
-[![npm](https://img.shields.io/npm/dm/@swiftcarrot/babel.svg)](https://www.npmjs.com/package/@swiftcarrot/babel)
-[![Build Status](https://travis-ci.org/swiftcarrot/babel.svg?branch=master)](https://travis-ci.org/swiftcarrot/babel)
-[![codecov](https://codecov.io/gh/swiftcarrot/babel/branch/master/graph/badge.svg)](https://codecov.io/gh/swiftcarrot/babel)
+[![npm](https://img.shields.io/npm/v/babel-preset-swiftcarrot.svg)](https://www.npmjs.com/package/babel-preset-swiftcarrot)
+[![npm](https://img.shields.io/npm/dm/babel-preset-swiftcarrot.svg)](https://www.npmjs.com/package/babel-preset-swiftcarrot)
+[![Build Status](https://travis-ci.org/wangzuo/babel-preset-swiftcarrot.svg?branch=master)](https://travis-ci.org/wangzuo/babel-preset-swiftcarrot)
+[![codecov](https://codecov.io/gh/wangzuo/babel-preset-swiftcarrot/branch/master/graph/badge.svg)](https://codecov.io/gh/wangzuo/babel-preset-swiftcarrot)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 ### Installation
 
 ```sh
-yarn add @swiftcarrot/babel --dev
-npm install @swiftcarrot/babel --save-dev
+yarn add babel-preset-swiftcarrot --dev
+npm install babel-preset-swiftcarrot --save-dev
 ```
 
 ### Usage
 
 ```json
 {
-  "presets": ["@swiftcarrot/babel"]
+  "presets": ["swiftcarrot"]
 }
 ```
 
