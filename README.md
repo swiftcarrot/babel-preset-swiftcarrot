@@ -9,8 +9,8 @@
 ### Installation
 
 ```sh
-yarn add babel-preset-swiftcarrot --dev
-npm install babel-preset-swiftcarrot --save-dev
+yarn add @babel/core babel-preset-swiftcarrot --dev
+npm install @babel/core babel-preset-swiftcarrot --save-dev
 ```
 
 ### Usage
