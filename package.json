@@ -13,21 +13,19 @@
   "author": "Wang Zuo <wzuoadjusted@gmail.com> (https://wangzuo.me/)",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/plugin-proposal-export-default-from": "^7.2.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-transform-runtime": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
-    "@babel/runtime": "^7.4.4",
-    "babel-loader": "^8.0.5",
     "babel-plugin-emotion": "^10.0.9",
     "babel-plugin-preval": "^3.0.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
     "jest": "^24.8.0"
   },
   "repository": {
@@ -37,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/swiftcarrot/babel-preset-swiftcarrot/issues"
   },
-  "homepage": "https://github.com/swiftcarrot/babel-preset-swiftcarrot#readme"
+  "homepage": "https://github.com/swiftcarrot/babel-preset-swiftcarrot#readme",
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  }
 }
