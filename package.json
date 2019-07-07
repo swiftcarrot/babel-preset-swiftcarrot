@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-swiftcarrot",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "swiftcarrot babel preset",
   "main": "index.js",
   "files": [
