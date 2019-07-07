@@ -12,7 +12,8 @@ module.exports = function(api, { production }) {
           }
         }
       ],
-      require('@babel/preset-react')
+      require('@babel/preset-react'),
+      require('@babel/preset-flow')
     ],
     plugins: [
       require('@babel/plugin-transform-runtime'),
