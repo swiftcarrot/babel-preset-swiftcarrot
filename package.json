@@ -10,7 +10,7 @@
     "test": "jest --coverage",
     "prepublishOnly": "npm test"
   },
-  "author": "Wang Zuo <wzuoadjusted@gmail.com> (https://wangzuo.me/)",
+  "author": "Wang Zuo <wangzuo@swiftcarrot.com> (https://swiftcarrot.com)",
   "license": "MIT",
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.5.5",
