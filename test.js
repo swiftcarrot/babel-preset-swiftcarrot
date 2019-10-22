@@ -52,12 +52,18 @@ let { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 };`)
 test('dynamic import', () => {
   expect(transform(`const x = lazy(() => import('x'));`))
     .toMatchInlineSnapshot(`
-                "\\"use strict\\";
+    "\\"use strict\\";
 
-                var x = lazy(function () {
-                  return import('x');
-                });"
-        `);
+    var _interopRequireDefault = require(\\"@babel/runtime/helpers/interopRequireDefault\\");
+
+    var _interopRequireWildcard2 = _interopRequireDefault(require(\\"@babel/runtime/helpers/interopRequireWildcard\\"));
+
+    var x = lazy(function () {
+      return Promise.resolve().then(function () {
+        return (0, _interopRequireWildcard2.default)(require('x'));
+      });
+    });"
+  `);
 });
 
 test('preval', () => {
